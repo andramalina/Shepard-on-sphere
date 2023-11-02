@@ -9,7 +9,6 @@ i0=1;
 for k = 1:N
     dk = acos(x*(nodes(k,:)'));
     if dk ~= 0
-        %%% calculul lui Rwk
         xx = nodes(k,:);
         dist = acos(xx*(nodes'));
         [sorted_dist,I] = sort(dist);
